@@ -89,7 +89,6 @@ with open('app.py', 'w') as f:
 streamlit run app.py
 ```
 
----
 
 ## ✅ Features
 
@@ -160,17 +159,6 @@ Try uploading:
 - Works offline (except LLM call)
 - Streamlit handles UI + sessions
 
-
-
-## 🛠 Troubleshooting
-
-| Issue                  | Fix                                                   |
-|------------------------|--------------------------------------------------------|
-| PDF errors             | Ensure it's a text-based (non-scanned) PDF            |
-| Empty responses        | Check API key or model ID validity                    |
-| Model not working      | Use `mistralai/mistral-7b-instruct` (recommended)     |
-| `.env` not working     | Ensure file is named exactly `.env`                  |
-| UI lag with large docs | Add chunking / reduce input to 1000 tokens            |
 
 
 
