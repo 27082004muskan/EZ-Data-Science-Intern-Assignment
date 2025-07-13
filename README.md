@@ -115,7 +115,7 @@ streamlit run app.py
 
 ## 🧠 App Architecture
 
-```
+
 📦 Smart Research Assistant
 ├── 🔧 DocumentProcessor
 │   ├── PDF/TXT extraction
