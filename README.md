@@ -10,7 +10,7 @@ An AI-powered document assistant built with Streamlit. Upload a PDF or TXT file 
 
 Powered by [OpenRouter](https://openrouter.ai) using free LLMs like Mistral or Claude.
 
----
+
 
 ## 📦 Requirements
 
@@ -21,9 +21,7 @@ streamlit>=1.28.0
 PyPDF2>=3.0.0
 openai>=1.3.0
 python-dotenv>=1.0.0
-```
 
----
 
 ## 🚀 Installation and Setup
 
@@ -59,9 +57,6 @@ def llm_response(prompt: str, context: str) -> str:
         max_tokens=500
     )
     return response.choices[0].message["content"].strip()
-```
-
----
 
 ### 3. Environment Variables
 
@@ -73,7 +68,7 @@ OPENAI_API_KEY=your_openrouter_key_here
 
 Get your key from https://openrouter.ai/ and make sure it's enabled for your selected model.
 
----
+
 
 ## 🖥 Running the Application
 
@@ -116,7 +111,7 @@ streamlit run app.py
 - 📌 Paragraph-level supporting evidence
 - 🧩 Progressive challenge question difficulty
 
----
+
 
 ## 🧠 App Architecture
 
@@ -138,9 +133,7 @@ streamlit run app.py
     ├── File upload UI
     ├── Mode toggles
     └── Interactive Q&A / Challenges
-```
 
----
 
 ## 🔁 Usage Flow
 
@@ -168,7 +161,7 @@ Try uploading:
 - Works offline (except LLM call)
 - Streamlit handles UI + sessions
 
----
+
 
 ## 🛠 Troubleshooting
 
@@ -180,9 +173,5 @@ Try uploading:
 | `.env` not working     | Ensure file is named exactly `.env`                  |
 | UI lag with large docs | Add chunking / reduce input to 1000 tokens            |
 
----
 
-## ✅ You're All Set!
-Push this project to GitHub and share your live AI document assistant 💡
 
-Let me know if you'd like badges, live demo links, or README banners added.
