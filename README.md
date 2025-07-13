@@ -137,13 +137,13 @@ streamlit run app.py
 
 ## 🔁 Usage Flow
 
+
 1. **Upload** a PDF or TXT
 2. **Get Summary** automatically
 3. **Pick Mode**: Ask or Challenge
 4. **Receive Responses** with supporting context
 5. **Track Your Questions & Answers**
 
----
 
 ## 🧪 Testing Tips
 
@@ -153,7 +153,6 @@ Try uploading:
 - 🔬 Scientific Articles
 - 📊 Financial Reports
 
----
 
 ## 🌐 Deployment Notes
 
