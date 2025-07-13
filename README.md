@@ -115,7 +115,7 @@ streamlit run app.py
 
 ## 🧠 App Architecture
 
-
+```
 📦 Smart Research Assistant
 ├── 🔧 DocumentProcessor
 │   ├── PDF/TXT extraction
@@ -133,7 +133,7 @@ streamlit run app.py
     ├── File upload UI
     ├── Mode toggles
     └── Interactive Q&A / Challenges
-
+```
 
 ## 🔁 Usage Flow
 
