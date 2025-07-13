@@ -8,7 +8,7 @@ An AI-powered document assistant built with Streamlit. Upload a PDF or TXT file 
 - 💬 Context-based Q&A
 - 🧠 Logic-based challenge questions with evaluation
 
-Powered by [OpenRouter](https://openrouter.ai) using free LLMs like Mistral or Claude.
+Powered by [OpenRouter](https://openrouter.ai) .
 
 
 
